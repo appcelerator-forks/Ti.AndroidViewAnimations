@@ -1,4 +1,6 @@
 # Ti.AndroidViewAnimations
+Originally posted on LoopModules website: https://loopmodules.com/downloads/ti-androidviewanimations/
+
 Ti.AndroidViewAnimations is an Android Hyperloop wrapper of the AndroidViewAnimations library. It provides a wide range of different animations that can be applied to your Titanium components.
 
 With Titanium and Hyperloop you can embed this module into your project and with a few lines of code you will have some animations working beautifully.
