@@ -1,0 +1,92 @@
+__        ______     ______   .______   .___  ___.   ______    _______   __    __   __       _______     _______.
+|  |      /  __  \   /  __  \  |   _  \  |   \/   |  /  __  \  |       \ |  |  |  | |  |     |   ____|   /       |
+|  |     |  |  |  | |  |  |  | |  |_)  | |  \  /  | |  |  |  | |  .--.  ||  |  |  | |  |     |  |__     |   (----`
+|  |     |  |  |  | |  |  |  | |   ___/  |  |\/|  | |  |  |  | |  |  |  ||  |  |  | |  |     |   __|     \   \
+|  `----.|  `--'  | |  `--'  | |  |      |  |  |  | |  `--'  | |  '--'  ||  `--'  | |  `----.|  |____.----)   |
+|_______| \______/   \______/  | _|      |__|  |__|  \______/  |_______/  \______/  |_______||_______|_______/
+
+
+Android View Animations
+It provides a wide range of different animations that can be applied to your Titanium components.
+https://github.com/daimajia/AndroidViewAnimations
+
+
+____                  _                               _
+|  _ \ ___  __ _ _   _(_)_ __ ___ _ __ ___   ___ _ __ | |_ ___
+| |_) / _ \/ _` | | | | | '__/ _ \ '_ ` _ \ / _ \ '_ \| __/ __|
+|  _ <  __/ (_| | |_| | | | |  __/ | | | | |  __/ | | | |_\__ \
+|_| \_\___|\__, |\__,_|_|_|  \___|_| |_| |_|\___|_| |_|\__|___/
+             |_|
+
+
+
+We recommend you taking a look at Appcelerator’s documentation on how to run HyperLoop in an Android Titanium project:
+https://s3-us-west-2.amazonaws.com/appc-labs-server/downloads/Hyperloop+for+Android+Programming+Guide.pdf
+
+HyperLoop does a pretty good job in allowing you to use Java with Javascript syntax, but that doesn't mean that you won't
+need to learn Java if you want to customise the module / create your own. Take your time and look up Java tutorials on youtube
+if you find
+
+
+
+_____            _                                      _     ____       _
+| ____|_ ____   _(_)_ __ ___  _ __  _ __ ___   ___ _ __ | |_  / ___|  ___| |_ _   _ _ __
+|  _| | '_ \ \ / / | '__/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __| \___ \ / _ \ __| | | | '_ \
+| |___| | | \ V /| | | | (_) | | | | | | | | |  __/ | | | |_   ___) |  __/ |_| |_| | |_) |
+|_____|_| |_|\_/ |_|_|  \___/|_| |_|_| |_| |_|\___|_| |_|\__| |____/ \___|\__|\__,_| .__/
+                                                                                  |_|
+
+
+
+This module was tested and developed with the following environment:
+- Titanium SDK 6.0.0.v20161017194738
+- HyperLoop 2.0.0
+
+We included a full project within this zip so you can quickly build and run it.
+The only thing you need to do is make sure that the GUID value in the TiApp.XML is valid, or copy all the properties defined in the provided TiApp.xml to an
+existing one.
+
+
+
+_   _
+| | | |___  __ _  __ _  ___
+| | | / __|/ _` |/ _` |/ _ \
+| |_| \__ \ (_| | (_| |  __/
+\___/|___/\__,_|\__, |\___|
+                |___/
+
+
+
+Creating animations within your components is fairly easy with this module.
+You will have to define your Titanium components as you always do and decide which component you want to animate. After that you just need to decide which animation you want to use and then invoke the module.
+
+YoYo.with(Techniques['$ANIMATION_NAME']).duration(1200).interpolate(new AccelerateDecelerateInterpolator()).playOn($YOUR_COMPONENT);
+
+We are shipping an example of usage with this module, so feel free to get it and learn from it.
+
+
+____                               _
+/ ___| _   _ _ __  _ __   ___  _ __| |_
+\___ \| | | | '_ \| '_ \ / _ \| '__| __|
+___) | |_| | |_) | |_) | (_) | |  | |_
+|____/ \__,_| .__/| .__/ \___/|_|   \__|
+           |_|   |_|
+
+
+
+One of the things we want to offer you as a reward for joining LoopModules is the ability to contact us to discuss and get help with problems that you may come across.
+We've tested this module a lot of times and we want to deliver something that will work for everyone (as long as the environments are the same, e.g. SDK, HL version, and so on).
+If you come across one of the following...
+- Bugs
+- Suggestions
+- Issues while compiling this module
+... feel free to contact us at contact@loopmodules.com.
+
+              _            _                         _
+             | |          | |                       | |
+ ___ ___   __| | ___   ___| |_ _ __ ___  _ __   __ _| |
+/ __/ _ \ / _` |/ _ \ / __| __| '__/ _ \| '_ \ / _` | |
+| (_| (_) | (_| |  __/ \__ \ |_| | | (_) | | | | (_| |_|
+\___\___/ \__,_|\___| |___/\__|_|  \___/|_| |_|\__, (_)
+                                                __/ |
+                                               |___/

@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="winIndex" class="container">
+		<Label id="lbl" text="LoopModules"/>
+		<TableView onClick="onTableClick">
+			<TableViewRow title="Flash"/>
+			<TableViewRow title="Tada"/>
+			<TableViewRow title="Wave"/>
+			<TableViewRow title="Shake"/>
+			<TableViewRow title="Swing"/>
+			<TableViewRow title="RollIn"/>
+			<TableViewRow title="RollOut"/>
+			<TableViewRow title="BounceIn"/>
+			<TableViewRow title="BounceInUp"/>
+			<TableViewRow title="BounceInDown"/>
+			<TableViewRow title="FadeIn"/>
+			<TableViewRow title="FadeOut"/>
+			<TableViewRow title="FadeOutDown"/>
+			<TableViewRow title="FlipInX"/>
+			<TableViewRow title="RotateIn"/>
+			<TableViewRow title="RotateOut"/>
+			<TableViewRow title="RotateInDownLeft"/>
+			<TableViewRow title="SlideInLeft"/>
+			<TableViewRow title="SlideInRight"/>
+			<TableViewRow title="ZoomIn"/>
+			<TableViewRow title="ZoomOut"/>
+			<TableViewRow title="ZoomInDown"/>
+		</TableView>
+	</Window>
+</Alloy>

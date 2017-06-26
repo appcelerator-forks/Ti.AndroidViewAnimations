@@ -1,0 +1,22 @@
+
+".container": {
+    backgroundColor: "white",
+    layout: "vertical"
+}
+
+"#lbl": {
+    height: 30,
+    color: 'black',
+    font: {
+        fontSize: 24,
+    }
+}
+
+'TableView': {
+    height: Ti.UI.FILL,
+    top:50
+}
+
+'TableViewRow': {
+    color: 'black'
+}
